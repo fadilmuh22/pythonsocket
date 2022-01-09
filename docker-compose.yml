@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  pythonsocket:
+    image: pythonsocket
+    build:
+      context: .
+      dockerfile: ./Dockerfile
