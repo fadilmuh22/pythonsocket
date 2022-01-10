@@ -6,7 +6,7 @@
 			"label": "docker-build",
 			"platform": "python",
 			"dockerBuild": {
-				"tag": "pythonsocket:latest",
+				"tag": "fadilmuh22/pythonsocket:latest",
 				"dockerfile": "${workspaceFolder}/Dockerfile",
 				"context": "${workspaceFolder}",
 				"pull": true
